@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+
+<html>
+    <head><meta charset="UTF-8"> 
+        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@3.19.0/dist/tabler-icons.min.css">
+        
+    <style> h1 {
+        font-family: 'Oswald', sans-serif;
+        letter-spacing: 8px;
+        text-transform: uppercase;
+        text-align: center;
+        color: #1f4d1a;
+        font-size: 20px;
+       
+    } 
+   header {
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    padding: 0 24px;
+
+   }
+   nav {
+    display: flex;
+    gap: 22px;
+   }
+
+   nav a {
+    text-decoration: none;
+    color: #1f4d1a;
+    font-size: 18px;
+   }
+
+   main {
+    text-align: center;
+    flex: 1;
+    padding: 0 24px;
+   }
+
+   main h2 {
+    color: #1f4d1a;
+    font-size: 36px;
+
+   }
+
+   main p {
+    color: #5b6f4b;
+
+   }
+
+   main a {
+     padding: 13px 24px;
+    border-radius: 10px;
+    background-color: #B7E34A;
+    text-decoration: none;
+    color: #1f4d1a;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+
+   }
+
+
+   .secundario {
+    background-color: white;
+    border: 1px solid #7fb02e;
+    color: #1f4d1a;
+
+   }
+
+   .botoes {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+
+   }
+   .menores {
+    margin-top: 12px;
+
+   }
+
+   .terciario {
+    background-color: white;
+    border: 1px solid #5ba9a3;
+    color: #0f5c5c;
+    padding : 10px 18px;
+    font-size: 14px;
+
+   }
+   
+   .mencao {
+    background-color: #f3f9e4;
+    border-radius: 10px;
+    padding: 14px 16px;
+   }
+
+   .mencao i {
+    font-size: 22px;
+    color: #3b6d11;
+
+   }
+
+   .mencao h3{
+    color: #27500a;
+    
+   }
+
+   .mencao p {
+    color: #4f6b3a;
+   }
+
+    .petroleo {
+    background-color: #e6f4f2;
+
+   }
+
+   .petroleo h3 {
+
+    color: #085041;
+
+   }
+
+   .petroleo p {
+
+    color: #0f6e56;
+
+   }
+
+   .petroleo i {
+
+    color: #0f6e56;
+   }
+   
+   .mencoes {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 12px;
+    margin-top: 44px;
+    text-align: left;
+
+   }
+
+   .selo {
+    display: inline-block;
+    font-size: 12px;
+    color: #0f5c5c;
+    background-color: #DDF1EE;
+    border-radius: 20px;
+    padding: 4px 12px;
+
+   }
+
+   body {
+    font-family: system-ui, sans-serif ;
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+   }
+footer {
+
+    margin-top: 60px;
+}
+  
+    </style>
+</head>
+    <body>
+        <header>
+            <h1>Grama Studying</h1>
+            <nav>
+                <a href="#">Início</a>
+                 <a href="#">Pastas</a>
+                  <a href="#">Anotações</a>
+                   <a href="#">Entrar</a>
+            </nav>
+        </header>
+        <main>
+            <span class="selo"> Organize, anote e teste</span>
+            
+            <h2> Estude com foco, evolua todos os dias.
+
+            </h2>
+            <p>Suas matérias, resumos e testes em um só lugar.</p>
+             
+           <div class="botoes">
+               <a href="#"><i class="ti ti-folder-plus"></i> Criar nova pasta</a>
+               <a href="#" class="secundario"><i class="ti ti-folder"></i> Minhas pastas</a>
+
+                </div>
+            
+            <div class="botoes menores">
+               <a href="#" class="terciario"><i class="ti ti-notes"></i> Anotações</a>
+               <a href="#" class="terciario"><i class="ti ti-checklist"></i> Testes</a>
+               <a href="#" class="terciario"><i class="ti ti-chart-line"></i> Minha evolução</a> 
+
+            </div>
+            <section class="mencoes">
+                <div class="mencao">
+                     <i class="ti ti-list-check"></i>
+                    <h3>Checklist de matérias</h3>
+                    <p>Acompanhe o que já estudou</p>
+                    
+                </div>
+
+                <div class="mencao petroleo">
+                    <i class="ti ti-sparkles"></i>
+                    <h3>Testes com IA</h3>
+                    <p>Feitos com as suas anotações</p>
+                    
+                </div>
+                <div class="mencao">
+                    <i class="ti ti-school"></i>
+                    <h3>Professor de apoio</h3>
+                    <p>Tire dúvidas a qualquer hora</p>
+                    
+                </div>
+            </section>
+        
+          
+        </main>
+
+       <footer>
+    <svg viewBox="0 0 680 70" width="100%">
+        <rect x="0" y="58" width="680" height="12" fill="#7FB02E"/>
+
+        <g fill="#B7E34A">
+            <path d="M10 60 Q14 30 18 8 Q22 32 26 60Z"/>
+            <path d="M70 60 Q74 36 80 14 Q82 36 88 60Z"/>
+            <path d="M140 60 Q144 28 150 6 Q153 32 158 60Z"/>
+            <path d="M230 60 Q234 34 240 12 Q243 36 248 60Z"/>
+            <path d="M330 60 Q334 30 340 8 Q343 34 348 60Z"/>
+            <path d="M430 60 Q434 36 440 14 Q443 36 448 60Z"/>
+            <path d="M520 60 Q524 28 530 6 Q533 32 538 60Z"/>
+            <path d="M610 60 Q614 34 620 12 Q623 36 628 60Z"/>
+        </g>
+
+        <g fill="#7FB02E">
+            <path d="M30 60 Q34 38 40 20 Q43 40 48 60Z"/>
+            <path d="M105 60 Q109 40 114 22 Q117 42 122 60Z"/>
+            <path d="M190 60 Q194 38 200 18 Q203 40 208 60Z"/>
+            <path d="M280 60 Q284 40 290 22 Q293 42 298 60Z"/>
+            <path d="M385 60 Q389 38 395 18 Q398 40 403 60Z"/>
+            <path d="M480 60 Q484 40 490 22 Q493 42 498 60Z"/>
+            <path d="M570 60 Q574 38 580 18 Q583 40 588 60Z"/>
+            <path d="M650 60 Q654 40 658 24 Q661 42 666 60Z"/>
+        </g>
+
+        <g fill="#2F8F83">
+            <path d="M52 60 Q55 46 60 34 Q62 48 66 60Z"/>
+            <path d="M165 60 Q168 46 173 34 Q175 48 179 60Z"/>
+            <path d="M262 60 Q265 46 270 34 Q272 48 276 60Z"/>
+            <path d="M360 60 Q363 46 368 34 Q370 48 374 60Z"/>
+            <path d="M460 60 Q463 46 468 34 Q470 48 474 60Z"/>
+            <path d="M550 60 Q553 46 558 34 Q560 48 564 60Z"/>
+        </g>
+    </svg>
+</footer>
+        
+    </body>
+</html>
+
+
+
